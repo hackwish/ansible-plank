@@ -18,7 +18,7 @@
     dest: /opt/plank-themes/plank-themes
 
 - name: Move theme
-  command: mv /opt/plank-themes/plank-themes/ /usr/share/plank/themes/
+  command: cp -r /opt/plank-themes/plank-themes/ /usr/share/plank/themes/
 
 - name: frost-plank-theme
   git:
@@ -26,7 +26,7 @@
     dest: /opt/plank-themes/frost-plank-theme
 
 - name: Move theme
-  command: mv /opt/plank-themes/frost-plank-theme/ /usr/share/plank/themes/
+  command: cp -r /opt/plank-themes/frost-plank-theme/ /usr/share/plank/themes/
 
 - name: bundle-plank-themes
   git:
@@ -34,7 +34,7 @@
     dest: /opt/plank-themes/bundle-plank-themes
 
 - name: Move theme
-  command: mv /opt/plank-themes/bundle-plank-themes/ /usr/share/plank/themes/
+  command: cp -r /opt/plank-themes/bundle-plank-themes/ /usr/share/plank/themes/
 
 # - name: plank-neutral-dark
 #   git:
