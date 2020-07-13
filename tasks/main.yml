@@ -4,3 +4,6 @@
   package:
     name: plank
     state: present
+
+- include: themes.yml
+  tags: themes
