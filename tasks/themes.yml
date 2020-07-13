@@ -3,39 +3,39 @@
 - name: plank-themes#paperterial#shade#antishade
   git:
     repo: 'https://github.com/UnsteadyZen/plank-themes.git'
-    dest: /usr/share/plank/themes
+    dest: /usr/share/plank/themes/
 
 - name: float
   unarchive:
     src: https://dllb2.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjE1MzQ2NjQyNjkiLCJ1IjpudWxsLCJsdCI6ImRvd25sb2FkIiwicyI6ImE5MzIxYTA2NmQ5MzlkNjlkNDYxODZlNWM3MjdlODE1ZWM5YjY1Y2Y2NmE2MDYzNTc4NTc0ZGQ5YTI1ZjJlNjQyZDQxNWNmYjAwOWZhYzM5ZDcyZTU1MzhiOTlkNWFhNmJlMGU3MzBiZTg1NjgwMWZkZjliNWFmMDUzZThhYzYyIiwidCI6MTU5NDQxNDE0OSwic3RmcCI6ImEzYzlkM2I0MTA0ZmJiMjc3NjNhZjA3ZDQ1NGU3YWE4Iiwic3RpcCI6IjE5MC4xMDAuMjA5LjQ1In0.N_6rB60auSv-o5ef7YOidJZX02Z9gTS5_fpKbMLFkCQ/float.tar.gz
-    dest: /usr/share/plank/themes
+    dest: /usr/share/plank/themes/
     remote_src: yes
 
 - name: macOS Dark Transparency
   unarchive:
     src: https://dllb2.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjE1Njk0NjE5MDAiLCJ1IjpudWxsLCJsdCI6ImRvd25sb2FkIiwicyI6IjZhZDQ4ZGY3ODhmOTYyODA3NjVmNTcxMzU3MjExNzVlYjZmZGIyMmYzZmQ5OTRiYjg4YTQxZDQ0Mzc1YWZhYWI1MjgxYWE0YWJmYjk3ZWYzYjM1YjAyZjE3MzZkMmJlYWNiNWQ0MDY5MTcyNjY4YTY0YzE4YTRjMjM4MGQ4MmVmIiwidCI6MTU5NDQxMjgyOCwic3RmcCI6ImEzYzlkM2I0MTA0ZmJiMjc3NjNhZjA3ZDQ1NGU3YWE4Iiwic3RpcCI6IjE5MC4xMDAuMjA5LjQ1In0.hkSATqC99hAHihCPqAyM0wtHYOp0siylmTUw_H4i8ZU/macOS%20Dark%20Transparency.zip
-    dest: /usr/share/plank/themes
+    dest: /usr/share/plank/themes/
     remote_src: yes
 
 - name: frost-plank-theme
   git:
     repo: 'https://github.com/dikiaap/frost-plank-theme.git'
-    dest: /usr/share/plank/themes
+    dest: /usr/share/plank/themes/
 
 - name: bundle-plank-themes
   git:
     repo: 'https://github.com/erikdubois/plankthemes.git'
-    dest: /usr/share/plank/themes
+    dest: /usr/share/plank/themes/
 
 - name: plank-neutral-dark
   git:
     repo: 'https://github.com/linhusp/plank-neutral-dark.git'
-    dest: /usr/share/plank/themes
+    dest: /usr/share/plank/themes/
 
 - name: eOS-Dark-Plank-Theme
   git:
     repo: 'https://github.com/KorbsStudio/eOS-Dark-Plank-Theme.git'
-    dest: /usr/share/plank/themes
+    dest: /usr/share/plank/themes/
 
 - name: Plank DarkGravity Theme
   git:
@@ -45,17 +45,17 @@
 - name: Plank Themes like macOS
   git:
     repo: 'https://github.com/x64Bits/plank-themes.git'
-    dest: /usr/share/plank/themes
+    dest: /usr/share/plank/themes/
 
 - name: Plank Themes like macOS
   git:
     repo: 'https://github.com/x64Bits/plank-themes.git'
-    dest: /usr/share/plank/themes
+    dest: /usr/share/plank/themes/
 
 - name: Flatte
   git:
     repo: 'https://github.com/YoungElPaso/flatte.git'
-    dest: /usr/share/plank/themes
+    dest: /usr/share/plank/themes/
 
 - name: Flatte
   git:
@@ -75,19 +75,19 @@
 - name: plank-theme-hippix
   git:
     repo: 'https://github.com/hiukky/plank-themes.git'
-    dest: /usr/share/plank/themes
+    dest: /usr/share/plank/themes/
 
 - name: Plank-Theme-Dark-
   git:
     repo: 'https://github.com/ujjwalbe/Plank-Theme-Dark-.git'
-    dest: /usr/share/plank/themes
+    dest: /usr/share/plank/themes/
 
 - name: Wingy2 Reloaded
   git:
     repo: 'https://github.com/darim92/wingy2r.git'
-    dest: /usr/share/plank/themes
+    dest: /usr/share/plank/themes/
 
 - name: Arc Plank Theme
   git:
     repo: 'https://github.com/grocid/arc-plank-theme.git'
-    dest: /usr/share/plank/themes
+    dest: /usr/share/plank/themes/
